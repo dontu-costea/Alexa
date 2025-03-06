@@ -1,0 +1,289 @@
+@import "fonts/icomoon/style.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #282828;
+}
+
+.icon-arrow-right:before {
+  content: "\e900";
+}
+
+.icon-dimesions:before {
+  content: "\e904";
+  font-size: 20px;
+}
+
+.icon-beds:before {
+  content: "\e903";
+  font-size: 20px;
+}
+
+.icon-crew:before {
+  content: "\e902";
+  font-size: 20px;
+}
+
+.icon-chef:before {
+  content: "\e901";
+  font-size: 20px;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.container {
+  width: 1140px;
+  margin: 0px 20px;
+}
+
+.private-cruises {
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  margin: 100px 0px;
+}
+
+.title {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+}
+
+.subtitle {
+  margin: 20px 0px 50px 0px;
+  font-size: 42px;
+  line-height: 52px;
+  font-family: "Taviraj", serif;
+}
+
+.line {
+  width: 72px;
+  height: 2px;
+  background-color: #c7a961;
+  margin: 0px 12px;
+}
+
+.block__body {
+  display: flex;
+  justify-content: space-between;
+  gap: 97px;
+}
+
+.block__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 600px;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.block__text {
+  margin-bottom: 24px;
+}
+
+.learn-more {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Manrope", sans-serif;
+  transition: 0.3s all ease;
+  line-height: 16px;
+}
+
+.learn-more:hover {
+  transform: translateX(5px);
+}
+
+.learn-more__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.learn-more span {
+  color: #225281;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.learn-more__line {
+  width: 99px;
+  height: 2px;
+  background-color: #225281;
+  margin-top: 4px;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 76px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Taviraj", serif;
+}
+
+.benefits__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.benefits__column {
+  width: 185px;
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits__text {
+  margin-top: 20px;
+}
+
+.yachts {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f4f1;
+  padding: 100px 0px;
+}
+
+.yachts__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.yachts__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.yacht {
+  width: 560px;
+  height: 692px;
+}
+
+.yacht__img {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.yacht__info {
+  margin: 0;
+  padding: 30px 20px;
+  border: 1px solid #225281;
+  border-top: none;
+}
+
+.yacht__rate {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0px;
+}
+
+.rate-title {
+  color: #8aabc9;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+}
+
+.yacht__name {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Taviraj", serif;
+}
+
+.name {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 500;
+}
+
+.price {
+  display: flex;
+  align-items: end;
+}
+
+.price__from {
+  font-size: 14px;
+  line-height: 30px;
+  margin-right: 7px;
+}
+
+.price__value {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 500;
+}
+
+.yacht__line {
+  height: 2px;
+  background-color: #c7a961;
+  margin: 20px 0px;
+}
+
+.yacht__details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+}
+
+.yacht__details div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.yacht__description {
+  margin: 33px 0px;
+  font-size: 14px;
+  font-family: "Manrope", sans-serif;
+}
+
+.book-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-now {
+  text-decoration: none;
+  border-radius: 20px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.book-now div {
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #225281;
+  color: white;
+  border-radius: 20px;
+  transition: 0.3s all ease;
+  text-transform: uppercase;
+}
+
+.book-now div:hover {
+  background-color: #f5f4f1;
+  color: #225281;
+  border: 1px solid #225281;
+}
